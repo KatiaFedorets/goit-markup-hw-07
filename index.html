@@ -10,7 +10,7 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <header class="page-header">
         <div class="contenier main-nav">
             <nav class="nav">
-                <a href="./index.html " class="logo-header"> <span class="logo-blue">Web</span> Studio</a>
+                <a href="./index.html " class="logo"><span class="logo-blue">Web</span> Studio</a>
                 <ul class="nav-list">
                     <li class="item"><a href="#" class="nav-link studio"> Студия</a></li>
                     <li class="item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
@@ -58,7 +58,7 @@
         <section class="section">
             <div class="contenier">
                 <!-- скрытый заголовок -->
-                <h2 class="title-hidden">Наши преимущества</h2>
+                <h2 class="visually-hidden">Наши преимущества</h2>
                 <ul class="link features-flexx ">
                     <li class="features-item">
                         <div class="features-icon">
@@ -338,7 +338,7 @@
         <div class="contenier">
             <div class="footer-flex">
                 <div class="logo-address">
-                    <p class="logo-footer"> <span class="logo-blue">Web</span> Studio</p>
+                    <p class="logo logo-footer"> <span class="logo-blue">Web</span> Studio</p>
                     <address class="address">
                         г. Киев, пр-т Леси Украинки, 26
                         <span class="address-contacts">nfo@example.com <br>
@@ -415,7 +415,7 @@
                     </svg>
                 </div>
                 <div class="comment-field">
-                    <textarea class="comment-area" name="comment" id="comment" rows="8"></textarea>
+                    <textarea class="comment-area" name="comment" id="comment" placeholder=" " rows="8"></textarea>
                     <label for="comment" class="comment-label">Комментарий</label>
                 </div>
                 <label class="policy-label">
@@ -429,7 +429,7 @@
                 </div>
             </form>
             <button class="close-btn" data-modal-close>
-                <svg class="" width="11" height="11">
+                <svg class="close-icon" width="11" height="11">
                     <use href="./img/symbol-defs.svg#icon-close"></use>
                 </svg>
             </button>
