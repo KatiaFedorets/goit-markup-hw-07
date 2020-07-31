@@ -277,8 +277,8 @@
 }
 
  .checkbox-input:checked + .check-icon {
-    background-image: url(../../img/icon\ check.svg); 
-    background-color: accent-text-color);
+    background-image: url(../../img/check.svg); 
+    background-color: $accent-text-color);
     background-size: contain; 
     background-origin: border-box;
     border-color: $accent-text-color; 
