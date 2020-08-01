@@ -202,7 +202,7 @@ ul.contact-list {
   border: none;
 }
 
-.features-icon, .social-link, .customers-flex, .customers {
+.features-icon, .social-link, .customers-flex, .customers, .submit-btm {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -638,7 +638,7 @@ ul.contact-list {
 
 .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
-  color: var(--accent-text-color);
+  color: #2196F3;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -659,7 +659,7 @@ ul.contact-list {
 }
 
 .form-input:focus ~ .form-icon {
-  fill: var(--accent-text-color);
+  fill: #2196F3;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -690,7 +690,7 @@ ul.contact-list {
 
 .comment-area:focus + .comment-label,
 .comment-area:not(:placeholder-shown) + .comment-label {
-  color: var(--accent-text-color);
+  color: #2196F3;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -737,10 +737,10 @@ ul.contact-list {
 
 .checkbox-input:checked + .check-icon {
   background-image: url(../../img/check.svg);
-  background-color: var(--accent-text-color);
+  background-color: #2196F3;
   background-size: contain;
   background-origin: border-box;
-  border-color: var(--accent-text-color);
+  border-color: #2196F3;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -753,7 +753,7 @@ ul.contact-list {
 }
 
 .policy {
-  color: var(--accent-text-color);
+  color: #2196F3;
   text-decoration: underline;
   font-size: 12px;
   line-height: 1.1;
@@ -761,15 +761,6 @@ ul.contact-list {
 }
 
 .submit-btm {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-top: 30px;
 }
 
